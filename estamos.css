@@ -1,0 +1,125 @@
+/* Reset de estilos para remover margens e preenchimento padrão */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+
+}
+
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #857f7f; /* Cor de fundo da barra de navegação */
+    color: #fff; /* Cor do texto */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.logo a {
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none; 
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #000000;
+    transition: color 0.3s;
+    font-size: 18px;
+    text-decoration: none; 
+}
+
+.menu a:hover {
+    color: #b10a0a;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        margin-top: 10px;
+    }
+
+    .menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* Estilos para o conteúdo da página "Onde Estamos" */
+.content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center; 
+}
+
+.location h1 {
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center; 
+    
+}
+
+.location p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.address {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Estilização para a seção de imagens */
+
+/* Estilização para a seção de imagens */
+.imagem-container {
+    display: flex; /* Para alinhar as imagens em linha */
+    justify-content: space-between; /* Distribuir as imagens igualmente na largura */
+    align-items: center; /* Alinhar verticalmente as imagens no centro */
+    margin: 20px 0; /* Adicionar margem acima e abaixo da seção de imagens */
+}
+
+.imagem-container img {
+    border-radius: 10px; /* Borda arredondada nas imagens */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra suave nas imagens */
+    margin: 0 10px; /* Adicionar margem horizontal entre as imagens */
+    transition: opacity 0.3s; /* Transição suave*/
+    width: 300px; /*Largura fixa*/
+    height: 360px; /*Altura ajustada automaticamnete */
+}
+
+.imagem-container img:hover{
+    opacity: 0.9; /* Aumenta a opacidade quando o mouse passa por cima */
+}

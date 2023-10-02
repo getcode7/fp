@@ -1,0 +1,90 @@
+/* Reset de estilos para remover margens e preenchimento padrão */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #857f7f; /* Cor de fundo da barra de navegação */
+    color: #fff; /* Cor do texto */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #857f7f;
+}
+
+.logo a {
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #000000;
+    transition: color 0.3s;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    color: #b10a0a;
+}
+
+/* Estilos para o conteúdo da página "Quem Somos" */
+
+.content {
+    padding: 20px;
+}
+
+.about-us h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    margin-bottom: 15px;
+}
+
+/* Estilos para o conteúdo da página "Quem Somos" */
+.content {
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para destacar o conteúdo */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.about-us h1 {
+    font-size: 37px; /* Tamanho maior para o título */
+    color: #1f1816; /* Cor laranja para o título */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-us p {
+    font-size: 20px; /* Tamanho de fonte maior para os parágrafos */
+    line-height: 1.5; /* Espaçamento entre linhas maior para facilitar a leitura */
+    color: #333; /* Cor de texto mais escura */
+    margin-bottom: 15px;
+    text-align:center; 
+}

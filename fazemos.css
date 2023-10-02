@@ -1,0 +1,166 @@
+/* Reset de estilos para remover margens e preenchimento padrão */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+
+}
+
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #857f7f; /* Cor de fundo da barra de navegação */
+    color: #fff; /* Cor do texto */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.logo a {
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.menu li {
+    margin-right: 20px;
+
+}
+
+.menu a {
+    color: #000000;
+    transition: color 0.3s;
+    font-size: 18px;
+    
+}
+
+.logo a:hover{
+    text-decoration: none;
+
+}
+
+.menu a:hover {
+    color: #b10a0a;
+    text-decoration: none; 
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        margin-top: 10px;
+    }
+
+    .menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* Estilos para o conteúdo da página "What We Do" */
+.conteiner{
+    padding: 20px;
+    background-color: #6d1717;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.services h1 {
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.services p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 15px;
+    text-align:center; 
+}
+
+.services ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.services ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align:center; 
+}
+
+.services ul li:last-child {
+    margin-bottom: 0;
+}
+
+/* Estilos adicionais para a seção "Pratos Especiais" */
+.services h2 {
+    font-size: 27px;
+    color: #000000;
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.services h2 + p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+    margin-top: 10px;
+}
+
+.services h2 + ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.services h2 + ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.services h2 + ul li:last-child {
+    margin-bottom: 0;
+}
+
+/* Estilos adicionais para a seção "Eventos Temáticos" */
+.services h2:last-child {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+/* Estilos para links */
+a {
+    color: #FF5733;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+

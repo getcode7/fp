@@ -1,0 +1,148 @@
+/* Reset de estilos para remover margens e preenchimento padrão */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color:rgba(196, 169, 17, 0.062);  
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;    
+}
+
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #857f7f; /* Cor de fundo da barra de navegação */
+    color: #fff; /* Cor do texto */
+}
+
+.container:first-child{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo a {
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #000000;
+    transition: color 0.3s;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    color: #b10a0a;
+}
+
+
+.artigo p{
+    color:#000000; 
+    text-align:left; 
+    position: relative; 
+    right:-1%; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 20px;
+}
+
+.artigo h1, h2, h3{
+    color:#000000;
+    font-size:19px; 
+    position:relative;
+    right: -1%;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.artigo ul{
+    position: relative; 
+    right: -3%;
+    font-family:cursive; 
+    font-style:italic;  
+}
+
+.artigo h4{
+    font-size: 16px; 
+    position: relative; 
+    right: -2%; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.container:nth-child(2){
+    max-width: 899px; /* Largura máxima do container */
+    height: 3970px; 
+    padding: 10px ; /* Espaçamento interno dentro do container */
+    border-radius: 30px;  
+    background-color: #a5a0a06b; /* Cor de fundo opcional */
+    position: relative; 
+    left: 51%; 
+    margin-top: -208%
+
+}
+
+/* Estilização para a seção de imagens */
+.container:nth-child(2) img{
+    border-radius: 10px; /* Borda arredondada nas imagens */
+    box-shadow: 3px 9px 10px rgba(0, 0, 0, 0.2); /* Sombra suave nas imagens */
+    margin: 5 9px; /* Adicionar margem horizontal entre as imagens */
+    transition: opacity 0.3s; /* Transição suave*/
+    width: 290px; /*Largura fixa*/
+    height: 340px; /*Altura ajustada automaticamnete */
+    position: flex; 
+}
+
+.container:nth-child(2) img:hover{
+    opacity: 0.9; /* Aumenta a opacidade quando o mouse passa por cima */
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.container p{
+    font-size:16px; 
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 50%; 
+}
+
+.loja{
+    margin-left:50%; 
+}
+
+.rodape-direitos{
+    margin-left: 36%; 
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        margin-top: 10px;
+    }
+
+    .menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

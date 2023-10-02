@@ -129,6 +129,34 @@ body{
 .rodape-direitos{
     margin-left: 36%; 
 }
+.reserve-button {
+    background-color: #ff07074b;
+    color: #fff;
+    font-size: 24px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 22px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; 
+    margin-left: 42%; 
+    margin-top:14px; 
+
+}
+
+.reserve-button a {
+    color: #000000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    position: relative; 
+}
+
+.reserve-button a:hover {
+    text-decoration: underline;
+    text-decoration: none; 
+    color:#b10a0a; 
+}
 
 /* Estilos responsivos */
 @media screen and (max-width: 768px) {

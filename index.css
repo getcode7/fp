@@ -1,6 +1,7 @@
 /* Reset de estilos para remover margens e preenchimento padrão */
 
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
 body, ul, li, a {
     margin: 0;
     padding: 0;
@@ -137,14 +138,14 @@ body, ul, li, a {
 
 /* Estilos para o rodapé */
 footer {
-    background-color: #504f4f;
-    color: #fff;
+    background: linear-gradient(to bottom, #333, #000);
+    color: #ffffff;
     text-align: center;
     padding: 20px;
 }
 
 footer a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 10px;
 }

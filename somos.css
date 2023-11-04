@@ -1,16 +1,19 @@
 /* Reset de estilos para remover margens e preenchimento padrão */
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Splash&display=swap');
 body, ul, li, a {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
-    
 }
 
 /* Estilos para a barra de navegação */
 .navbar {
-    background-color: #857f7f; /* Cor de fundo da barra de navegação */
-    color: #fff; /* Cor do texto */
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), #474242);
+   
 }
 
 .container {
@@ -20,21 +23,21 @@ body, ul, li, a {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #857f7f;
 }
 
 .logo a {
     color: #000000;
     font-size: 26px;
     font-weight: bold;
+    font-family:'Kalam', cursive; 
 
 }
+
 
 .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .menu li {
@@ -51,6 +54,30 @@ body, ul, li, a {
     color: #b10a0a;
 }
 
+
+
+/* Estilos para a barra de navegação (pode reutilizar o CSS existente) */
+/* ... (código CSS existente) ... */
+
+/* Estilos para a seção "Home" */
+.home {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('img/k.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+    background-size: cover;
+    color: #d6d6d6;
+}
+
+.home h1 {
+    content: "";
+    background: linear-gradient(48deg, #000, transparent, transparent, #000);
+    z-index: -1;    
+    font-size: 70px;
+    margin-bottom: 100px;
+    font-family: 'Splash', cursive;
+    color: #ffffff;
+    
+}
 /* Estilos para o conteúdo da página "Quem Somos" */
 
 .content {
@@ -88,3 +115,7 @@ body, ul, li, a {
     margin-bottom: 15px;
     text-align:center; 
 }
+
+/*criar uma classe com atributo publico e um atributo privado, 
+e verificar que só conseguimos verificar os valores de atributos publicos  */
+
